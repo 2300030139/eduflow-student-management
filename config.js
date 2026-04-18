@@ -3,7 +3,7 @@
 // ============================================================
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBoP3eZ6D08TKVYMQFVHHLkJkbKYPK9seY",
+  apiKey: "",
   authDomain: "eduflow-appsaas.firebaseapp.com",
   projectId: "eduflow-appsaas",
   storageBucket: "eduflow-appsaas.firebasestorage.app",
@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 
 // Google OAuth Client ID (from Google Cloud Console → Credentials → OAuth 2.0 Client IDs)
-const GOOGLE_CLIENT_ID = "871386211552-7tlovt270aj5ttcgi84fv6hs7bg78u2j.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = "";
 
 // Initialize Firebase (compat SDK)
 firebase.initializeApp(firebaseConfig);
